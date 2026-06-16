@@ -1,6 +1,7 @@
 -Numerical Solutions of ADHM Instantons-
 
 polyg_adhm.py  done with Kimi more advanced (polygons configuration)
+
 instanton_solver.py done with gemini (general but needs better checks/convergence)
 
 released for educational purposes
@@ -21,10 +22,22 @@ Instanton/Monopoles is a vast subject and they represent our concrete classical
 window into Yang-Mills theory =
 non-abelian extension of Electrcity/Magnetism Abelian Maxwell's equation
 
+
 check following links for details and usage
 
 https://chat.deepseek.com/share/5s29mnhfnbjihy7d0i
 https://gemini.google.com/share/076888894f60
+
+run the tests 10+ etsts using
+
+pytest test_polyg_adhm_new.py
+
+it needs a better integrator, but it work for different
+values up to k +/-.25  so not bad and some solutions
+can easily be given valid for 10^-16, actually sympy
+and mpmath, checked some solutions up to 10^-55, not
+bad for the first time and can be easily extended
+try to build the bianchi identity verifier
 
 
 
